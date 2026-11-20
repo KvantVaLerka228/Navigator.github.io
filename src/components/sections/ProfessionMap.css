@@ -132,7 +132,6 @@
   transform: scaleX(1);
 }
 
-/* Иконка — теперь картинка */
 .map-card-icon {
   width: 80px;
   height: 80px;
@@ -150,7 +149,6 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  /* Если твои SVG черные — перекрасим в желтый: */
   filter: brightness(0) saturate(100%) invert(87%) sepia(93%) saturate(1276%) hue-rotate(2deg) brightness(105%) contrast(106%);
   transition: filter 0.35s ease;
 }
@@ -160,7 +158,6 @@
   transform: rotate(-6deg) scale(1.08);
 }
 
-/* При ховере иконка становится темной на желтом фоне */
 .map-card:hover .map-card-icon img {
   filter: brightness(0) saturate(100%) invert(12%) sepia(7%) saturate(1200%) hue-rotate(190deg) brightness(95%) contrast(95%);
 }
@@ -217,7 +214,6 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  /* В модалке на желтом фоне иконка должна быть темной */
   filter: brightness(0) saturate(100%) invert(12%) sepia(7%) saturate(1200%) hue-rotate(190deg) brightness(95%) contrast(95%);
 }
 
