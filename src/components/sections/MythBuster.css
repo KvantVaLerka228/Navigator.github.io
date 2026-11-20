@@ -166,7 +166,7 @@
 }
 
 /* =========================================
-   ПЛАШКИ МИФ / ПРАВДА (ЗАКРЫВАЮЩИЕ)
+   ПЛАШКИ МИФ / ПРАВДА
 ========================================= */
 .myth-cover {
   position: absolute;
@@ -235,7 +235,7 @@
 }
 
 /* =========================================
-   МИФ — ДОПОЛНИТЕЛЬНЫЙ ДЕКОР (НА ФОНЕ)
+   МИФ - ДОПОЛНИТЕЛЬНЫЙ ДЕКОР (НА ФОНЕ)
 ========================================= */
 .myth-deco-elements {
   position: absolute;
@@ -291,7 +291,7 @@
 }
 
 /* =========================================
-   МИФ — GIF
+   МИФ - GIF
 ========================================= */
 .myth-interactive--left {
   position: relative;
@@ -383,7 +383,7 @@
 }
 
 /* =========================================
-   МИФ — ОБЛАЧКО МЫСЛЕЙ
+   МИФ - ОБЛАЧКО МЫСЛЕЙ
 ========================================= */
 .thought-bubble {
   position: absolute;
@@ -481,7 +481,7 @@
 .myth-side:hover .thought-item:nth-child(5) { animation-delay: 12s; }
 
 /* =========================================
-   ПРАВДА — КОМПОЗИЦИЯ
+   ПРАВДА - КОМПОЗИЦИЯ
 ========================================= */
 .myth-interactive--right {
   position: relative;
@@ -493,7 +493,7 @@
 }
 
 /* =========================================
-   ПРАВДА — ЛЕВИТИРУЮЩИЕ ПЛАШКИ
+   ПРАВДА - ЛЕВИТИРУЮЩИЕ ПЛАШКИ
 ========================================= */
 .float-tag {
   position: absolute;
@@ -522,7 +522,7 @@
   animation: tagFloat 5s ease-in-out infinite alternate;
 }
 
-/* Позиции тегов (уходят за края) */
+/* Позиции тегов */
 .tag-1 { top: -5%; left: -10%; rotate: -10deg; animation-delay: 0s; }
 .tag-2 { top: 10%; right: -15%; rotate: -8deg; animation-delay: 0.5s; }
 .tag-3 { top: 40%; left: -15%; rotate: -15deg; animation-delay: 1s; }
@@ -538,7 +538,7 @@
 }
 
 /* =========================================
-   КОШКИ — СРЕДНИЙ ПЛАН
+   КОШКИ - СРЕДНИЙ ПЛАН
 ========================================= */
 .truth-cat {
   position: absolute;
@@ -554,7 +554,7 @@
 
 .myth-side:hover .truth-cat { opacity: 1; }
 
-/* Позиции кошек (раскиданы по всей площади) */
+/* Позиции кошек */
 .cat-1 { top: -5%; left: 10%; width: 100px; height: 100px; rotate: -15deg; animation: catShakeOne 0.12s infinite; }
 .cat-2 { top: -5%; right: -5%; width: 130px; height: 130px; rotate: 20deg; animation: catShakeTwo 0.14s infinite; }
 .cat-3 { bottom: -10%; left: -5%; width: 120px; height: 120px; rotate: -10deg; animation: catShakeThree 0.11s infinite; }
@@ -617,7 +617,6 @@
   transform: translateY(30px) scale(0.92);
   transform-origin: bottom right;
   
-  /* Убираем любые тени и делаем края невидимыми */
   filter: drop-shadow(0 15px 28px rgba(0, 0, 0, 0.45));
   pointer-events: none;
   transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
@@ -693,7 +692,7 @@
 }
 
 /* =========================================
-   ВЫВОДЫ (ВЫТЯНУТЫЕ И ЧИТАЕМЫЕ)
+   ВЫВОДЫ
 ========================================= */
 .myth-insight {
   position: absolute;
