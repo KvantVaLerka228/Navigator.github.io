@@ -1,0 +1,269 @@
+.profile-section {
+  position: relative;
+  background-color: #f5f4f0;
+  overflow: hidden;
+}
+
+/* Легкий фон */
+.profile-bg-decor {
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(255, 221, 0, 0.06) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.profile-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* ===== ЛЕВАЯ ЧАСТЬ: ВИДЕО ===== */
+.profile-video-wrapper {
+  position: relative;
+}
+
+/* Мягкое желтое свечение позади видео */
+.video-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 110%;
+  height: 110%;
+  background: radial-gradient(circle, rgba(255, 221, 0, 0.15) 0%, transparent 60%);
+  filter: blur(40px);
+  z-index: -1;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  opacity: 0.7;
+}
+
+.profile-video-wrapper:hover .video-glow {
+  opacity: 1;
+}
+
+/* Рамка видео */
+.video-frame {
+  position: relative;
+  border-radius: 32px;
+  overflow: hidden;
+  background: #000;
+  aspect-ratio: 4 / 3;
+  box-shadow: 
+    0 30px 60px rgba(32, 35, 41, 0.15),
+    0 0 0 1px rgba(0, 0, 0, 0.05);
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.5s ease;
+}
+
+.video-frame:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 
+    0 40px 80px rgba(32, 35, 41, 0.2),
+    0 0 0 2px rgba(255, 221, 0, 0.5);
+}
+
+/* Эффект блика по рамке при наведении */
+.video-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  padding: 2px;
+  background: linear-gradient(135deg, rgba(255,221,0,0.8), transparent 40%, transparent 60%, rgba(215,25,32,0.8));
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.video-frame:hover::before {
+  opacity: 1;
+}
+
+.profile-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
+
+/* Кнопка Play/Pause */
+.video-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: rgba(255, 221, 0, 0.95);
+  color: #202329;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(255, 221, 0, 0.4);
+  z-index: 10;
+}
+
+.video-play-btn svg {
+  width: 32px;
+  height: 32px;
+  margin-left: 4px;
+}
+
+.video-play-btn.playing {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+.video-frame:hover .video-play-btn.playing {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.video-play-btn:hover {
+  background: #ffffff;
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 15px 40px rgba(255, 221, 0, 0.6);
+}
+
+/* Плашка */
+.video-badge {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  padding: 10px 20px;
+  background: rgba(32, 35, 41, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 100px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 5;
+}
+
+/* ===== ПРАВАЯ ЧАСТЬ: ТЕКСТ ===== */
+.profile-content {
+  padding-left: 20px;
+}
+
+.profile-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  color: #d71920;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+}
+
+.profile-eyebrow::before {
+  content: "";
+  width: 32px;
+  height: 2px;
+  background: #ffdd00;
+}
+
+.profile-title {
+  margin: 0 0 24px;
+  color: #202329;
+  font-size: clamp(34px, 4vw, 52px);
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: -1.5px;
+}
+
+.profile-title .text-accent {
+  position: relative;
+  display: inline;
+  color: #d71920;
+}
+
+.profile-title .text-accent::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  width: 100%;
+  height: 12px;
+  background: rgba(255, 221, 0, 0.4);
+  z-index: -1;
+  transform: skewX(-15deg);
+}
+
+.profile-lead {
+  margin: 0 0 20px;
+  color: #202329;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.profile-text {
+  margin: 0 0 32px;
+  color: #646770;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* ===== АДАПТИВ ===== */
+@media (max-width: 1024px) {
+  .profile-grid {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .profile-content {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-section {
+    padding: 80px 0;
+  }
+
+  .profile-container {
+    padding: 0 20px;
+  }
+
+  .profile-title {
+    font-size: 32px;
+  }
+
+  .profile-lead {
+    font-size: 18px;
+  }
+}
