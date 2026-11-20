@@ -6,7 +6,7 @@
   font-family: var(--font-body), system-ui, sans-serif;
 }
 
-/* ===== НОВЫЙ ФОНОВЫЙ ДЕКОР ===== */
+/* ===== ФОНОВЫЙ ДЕКОР ===== */
 .ladder-bg-decor {
   position: absolute;
   inset: 0;
@@ -74,7 +74,7 @@
   text-align: center;
 }
 
-/* ===== МАСШТАБНЫЕ ДЕКОРАЦИИ ===== */
+/* ===== ДЕКОРАЦИИ ===== */
 .massive-decor {
   position: absolute;
   width: 500px;
@@ -523,7 +523,7 @@
     height: 140px;
   }
   .arc-arrow-wrapper {
-    display: none; /* Скрываем дуги на небольших экранах, чтобы не было наложений */
+    display: none;
   }
 }
 
