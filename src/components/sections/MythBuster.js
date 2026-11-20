@@ -23,7 +23,6 @@ export default function MythBuster() {
           <div className="myth-bg-pattern"></div>
           <div className="myth-ambient myth-ambient--red"></div>
           
-          {/* Заполняем фон Мифа сеткой, линиями и кругами */}
           <div className="myth-deco-elements">
             <div className="deco-line deco-line-1"></div>
             <div className="deco-line deco-line-2"></div>
@@ -91,7 +90,7 @@ export default function MythBuster() {
               <div className="float-tag tag-7"><img src="/icons/dev.svg" alt="Разработка" /><span>Разработка</span></div>
               <div className="float-tag tag-8"><img src="/icons/support.svg" alt="Поддержка" /><span>Поддержка</span></div>
 
-              {/* Кошки (раскиданы по всей площади) */}
+              {/* Кошки */}
               <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-1" />
               <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-2" />
               <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-3" />
@@ -100,7 +99,7 @@ export default function MythBuster() {
               <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-6" />
               <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-7" />
 
-              {/* Солдат (огромный, с растянутым фоном) */}
+              {/* Солдат */}
               <img src="/images/meme/War-meme.png" alt="Солдат" className="truth-soldier" />
 
               {/* Облачко с точками */}
