@@ -150,7 +150,6 @@ export default function ProfessionLadder() {
                 </div>
               </button>
 
-              {/* Позиционируем стрелку так, чтобы она начиналась от верха текущего постамента */}
               {index < professions.length - 1 && (
                 <div 
                   className="arc-arrow-wrapper" 
