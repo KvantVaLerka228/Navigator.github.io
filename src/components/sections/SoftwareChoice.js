@@ -93,7 +93,7 @@ export default function SoftwareChoice() {
         </div>
       </div>
 
-      {/* ===== БЛОК 3: НАПРАВЛЕНИЯ (НОВАЯ BENTO СХЕМА) ===== */}
+      {/* ===== БЛОК 3: НАПРАВЛЕНИЯ (BENTO СХЕМА) ===== */}
       <div className="platform-directions-fullwidth">
         <div className="platform-bg-decor">
           <div className="platform-glow-1"></div>
@@ -113,7 +113,7 @@ export default function SoftwareChoice() {
 
           <div className="bento-wrapper">
             <div className="bento-grid">
-              {/* Ядро (Большая плашка, 2x2) */}
+              {/* Ядро */}
               <div className="bento-card bento-center item-1">
                 <div className="bento-center-glow"></div>
                 <div className="bento-center-circle">
@@ -125,7 +125,7 @@ export default function SoftwareChoice() {
                 </p>
               </div>
 
-              {/* 6 Карточек направлений */}
+              {/* Карточки направлений */}
               <div className="bento-card bento-item item-2">
                 <div className="bento-icon-wrap">
                   <img
