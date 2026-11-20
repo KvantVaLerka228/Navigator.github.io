@@ -422,7 +422,7 @@
 
 .why-1c-content p {
   max-width: 700px;
-  margin: 0 auto 56px; /* Увеличено */
+  margin: 0 auto 56px;
   font-size: 20px;
   line-height: 1.7;
   color: #c6c9d0;
@@ -458,7 +458,7 @@
   border-radius: 2px;
 }
 
-/* ===== БЛОК 3: НАПРАВЛЕНИЯ (НОВАЯ BENTO СХЕМА) ===== */
+/* ===== БЛОК 3: НАПРАВЛЕНИЯ (BENTO СХЕМА) ===== */
 .platform-directions-fullwidth {
   position: relative;
   width: 100%;
@@ -516,7 +516,7 @@
 .text-white { color: #ffffff; }
 .text-gray { color: #a6a8ae; }
 
-/* Bento Grid (Новая схема) */
+/* Bento Grid */
 .bento-wrapper {
   position: relative;
   max-width: 1200px;
