@@ -81,7 +81,7 @@ export default function MythBuster() {
           <div className="myth-content">
             <div className="myth-interactive myth-interactive--right">
               
-              {/* Иконки с текстом (уходят за края) */}
+              {/* Иконки с текстом */}
               <div className="float-tag tag-1"><img src="/icons/ERP.png" alt="ERP" /><span>ERP</span></div>
               <div className="float-tag tag-2"><img src="/icons/buhgalteriya.png" alt="Бухгалтерия" /><span>Бухгалтерия</span></div>
               <div className="float-tag tag-3"><img src="/icons/torg.png" alt="Торговля" /><span>Торговля</span></div>
