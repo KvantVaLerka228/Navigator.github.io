@@ -6,12 +6,12 @@ export const softwareDetails = [
 ];
 
 export const platformDirections = [
-  { id: "hr", label: "1С:Зарплата и Кадры", icon: "/icons/salary.png", desc: "Управление персоналом" },
-  { id: "erp", label: "1С:ERP", icon: "/icons/ERP.png", desc: "Управление ресурсами" },
-  { id: "unf", label: "1С:УНФ", icon: "/icons/unf.png", desc: "Управление нашей фирмой" },
-  { id: "trade", label: "1С:Торговля", icon: "/icons/torg.png", desc: "Автоматизация складов" }, 
-  { id: "arch", label: "1С:Архив", icon: "/icons/arch.png", desc: "Архивное дело" },
-  { id: "accounting", label: "1С:Бухгалтерия", icon: "/icons/buhgalteriya.png", desc: "Финансовый учет" },
+  { id: "hr", label: "1С:Зарплата и Кадры", icon: "/Navigator.github.io/icons/salary.png", desc: "Управление персоналом" },
+  { id: "erp", label: "1С:ERP", icon: "/Navigator.github.io/icons/ERP.png", desc: "Управление ресурсами" },
+  { id: "unf", label: "1С:УНФ", icon: "/Navigator.github.io/icons/unf.png", desc: "Управление нашей фирмой" },
+  { id: "trade", label: "1С:Торговля", icon: "/Navigator.github.io/icons/torg.png", desc: "Автоматизация складов" }, 
+  { id: "arch", label: "1С:Архив", icon: "/Navigator.github.io/icons/arch.png", desc: "Архивное дело" },
+  { id: "accounting", label: "1С:Бухгалтерия", icon: "/Navigator.github.io/icons/buhgalteriya.png", desc: "Финансовый учет" },
 ];
 
 export const benefits = [

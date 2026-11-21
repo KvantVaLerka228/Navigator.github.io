@@ -45,7 +45,7 @@ export default function MythBuster() {
               <div className="gif-glow"></div>
               
               <div className="gif-frame">
-                <img src="/images/meme/chips.gif" alt="Мужчина ест чипсы" className="myth-gif" />
+                <img src="/Navigator.github.io/images/meme/chips.gif" alt="Мужчина ест чипсы" className="myth-gif" />
               </div>
 
               <div className="thought-bubble">
@@ -81,14 +81,14 @@ export default function MythBuster() {
             <div className="myth-interactive myth-interactive--right">
               
               {/* Иконки с текстом */}
-              <div className="float-tag tag-1"><img src="/icons/ERP.png" alt="ERP" /><span>ERP</span></div>
-              <div className="float-tag tag-2"><img src="/icons/buhgalteriya.png" alt="Бухгалтерия" /><span>Бухгалтерия</span></div>
-              <div className="float-tag tag-3"><img src="/icons/torg.png" alt="Торговля" /><span>Торговля</span></div>
-              <div className="float-tag tag-4"><img src="/icons/salary.png" alt="Зарплата" /><span>Зарплата</span></div>
-              <div className="float-tag tag-5"><img src="/icons/arch.png" alt="Архив" /><span>Архив</span></div>
-              <div className="float-tag tag-6"><img src="/icons/ERP.png" alt="УНФ" /><span>УНФ</span></div>
-              <div className="float-tag tag-7"><img src="/icons/dev.svg" alt="Разработка" /><span>Разработка</span></div>
-              <div className="float-tag tag-8"><img src="/icons/support.svg" alt="Поддержка" /><span>Поддержка</span></div>
+              <div className="float-tag tag-1"><img src="/Navigator.github.io/icons/ERP.png" alt="ERP" /><span>ERP</span></div>
+              <div className="float-tag tag-2"><img src="/Navigator.github.io/icons/buhgalteriya.png" alt="Бухгалтерия" /><span>Бухгалтерия</span></div>
+              <div className="float-tag tag-3"><img src="/Navigator.github.io/icons/torg.png" alt="Торговля" /><span>Торговля</span></div>
+              <div className="float-tag tag-4"><img src="/Navigator.github.io/icons/salary.png" alt="Зарплата" /><span>Зарплата</span></div>
+              <div className="float-tag tag-5"><img src="/Navigator.github.io/icons/arch.png" alt="Архив" /><span>Архив</span></div>
+              <div className="float-tag tag-6"><img src="/Navigator.github.io/icons/ERP.png" alt="УНФ" /><span>УНФ</span></div>
+              <div className="float-tag tag-7"><img src="/Navigator.github.io/icons/dev.svg" alt="Разработка" /><span>Разработка</span></div>
+              <div className="float-tag tag-8"><img src="/Navigator.github.io/icons/support.svg" alt="Поддержка" /><span>Поддержка</span></div>
 
               {/* Кошки */}
               <img src="/Navigator.github.io/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-1" />

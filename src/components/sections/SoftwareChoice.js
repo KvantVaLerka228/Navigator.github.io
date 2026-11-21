@@ -4,10 +4,10 @@ import { softwareDetails, platformDirections, benefits } from "@/data/software";
 import "./SoftwareChoice.css";
 
 const benefitIcons = [
-  "/icons/friendly.svg",
-  "/icons/community.svg",
-  "/icons/standsrds.svg",
-  "/icons/needs.svg",
+  "/Navigator.github.io/icons/friendly.svg",
+  "/Navigator.github.io/icons/community.svg",
+  "/Navigator.github.io/icons/standsrds.svg",
+  "/Navigator.github.io/icons/needs.svg",
 ];
 
 export default function SoftwareChoice() {
@@ -55,7 +55,7 @@ export default function SoftwareChoice() {
                 </div>
                 {index < softwareDetails.length - 1 && (
                   <div className="detail-arrow">
-                    <img src="/icons/arrowright.svg" alt="Стрелка" />
+                    <img src="/Navigator.github.io/icons/arrowright.svg" alt="Стрелка" />
                   </div>
                 )}
               </div>
@@ -64,7 +64,7 @@ export default function SoftwareChoice() {
 
           <div className="detail-footer-note">
             <div className="note-icon-wrap">
-              <img src="/icons/exclamation.svg" alt="Внимание" />
+              <img src="/Navigator.github.io/icons/exclamation.svg" alt="Внимание" />
             </div>
             <p>
               Все эти процессы объединяет одно — они требуют надежной

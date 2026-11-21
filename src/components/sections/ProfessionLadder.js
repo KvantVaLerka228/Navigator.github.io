@@ -7,28 +7,28 @@ const professions = [
   {
     id: "tester",
     name: "Тестировщики",
-    image: "/images/professions/tester.png",
+    image: "/Navigator.github.io/images/professions/tester.png",
     height: "180px",
     description: "Проверяют качество и надёжность программных продуктов.",
   },
   {
     id: "analyst",
     name: "Аналитики",
-    image: "/images/professions/analyst.png",
+    image: "/Navigator.github.io/images/professions/analyst.png",
     height: "260px",
     description: "Изучают задачи бизнеса и формируют требования к системе.",
   },
   {
     id: "developer",
     name: "Разработчики",
-    image: "/images/professions/developer.png",
+    image: "/Navigator.github.io/images/professions/developer.png",
     height: "340px",
     description: "Создают и совершенствуют программные решения.",
   },
   {
     id: "manager",
     name: "Проект-менеджеры",
-    image: "/images/professions/manager.png",
+    image: "/Navigator.github.io/images/professions/manager.png",
     height: "420px",
     description: "Организуют работу команды и управляют реализацией проекта.",
   },
@@ -38,13 +38,13 @@ const finalProfessions = [
   {
     id: "consultant",
     name: "Консультанты",
-    image: "/images/professions/consultant.png",
+    image: "/Navigator.github.io/images/professions/consultant.png",
     description: "Помогают внедрять системы и адаптировать их под задачи клиентов.",
   },
   {
     id: "support",
     name: "Специалисты технической поддержки",
-    image: "/images/professions/support.png",
+    image: "/Navigator.github.io/images/professions/support.png",
     description: "Помогают пользователям и решают технические проблемы.",
   },
 ];
@@ -91,7 +91,7 @@ export default function ProfessionLadder() {
           <div className="ring ring-outer"></div>
           <div className="ring ring-inner"></div>
           <div className="glow-sphere"></div>
-          <img src="/icons/analitics.svg" alt="Аналитика" className="levitating-icon" />
+          <img src="/Navigator.github.io/icons/analitics.svg" alt="Аналитика" className="levitating-icon" />
         </div>
 
         <div className="ladder-heading">
@@ -114,7 +114,7 @@ export default function ProfessionLadder() {
           <div className="ring ring-outer"></div>
           <div className="ring ring-inner"></div>
           <div className="glow-sphere"></div>
-          <img src="/icons/dev.svg" alt="Разработка" className="levitating-icon" />
+          <img src="/Navigator.github.io/icons/dev.svg" alt="Разработка" className="levitating-icon" />
         </div>
       </div>
 
@@ -163,7 +163,7 @@ export default function ProfessionLadder() {
 
           <div className="ladder-transition">
             <span className="transition-label">СДАЧА ГОТОВОГО ПРОДУКТА</span>
-            <img src="/icons/arrowright.svg" alt="Стрелка вправо" className="transition-arrow-img" />
+            <img src="/Navigator.github.io/icons/arrowright.svg" alt="Стрелка вправо" className="transition-arrow-img" />
           </div>
 
           <div className="ladder-final">

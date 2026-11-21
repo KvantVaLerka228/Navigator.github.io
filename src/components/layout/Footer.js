@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="footer-brand">
             <a href="#home" className="footer-logo">
               <div className="footer-logo-mark">
-                <img src="/icons/community.svg" alt="Логотип" />
+                <img src="/Navigator.github.io/icons/community.svg" alt="Логотип" />
               </div>
               <div className="footer-logo-text">
                 <span className="footer-logo-title">СПЕЦИАЛИСТ</span>
@@ -53,7 +53,7 @@ export default function Footer() {
           {/* Кнопка Наверх */}
           <div className="footer-actions">
             <button className="footer-up-btn" onClick={scrollToTop} aria-label="Наверх">
-              <img src="/icons/arrow.svg" alt="Наверх" />
+              <img src="/Navigator.github.io/icons/arrow.svg" alt="Наверх" />
             </button>
           </div>
         </div>

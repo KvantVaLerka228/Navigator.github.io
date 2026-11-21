@@ -47,7 +47,7 @@ export default function ProfileSection() {
               <video
                 ref={videoRef}
                 className="profile-video"
-                src="/videos/travel.mp4"
+                src="/Navigator.github.io/videos/travel.mp4"
                 loop
                 muted
                 playsInline
@@ -93,7 +93,7 @@ export default function ProfileSection() {
         <video
           ref={modalVideoRef}
           className="modal-video"
-          src="/videos/travel.mp4"
+          src="/Navigator.github.io/videos/travel.mp4"
           controls
           autoPlay
           playsInline

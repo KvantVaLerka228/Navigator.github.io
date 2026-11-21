@@ -16,7 +16,7 @@ export default function Header() {
         {/* Логотип */}
         <a href="#home" className="header-logo" onClick={closeMenu}>
           <div className="logo-mark">
-            <img src="/icons/community.svg" alt="Логотип" />
+            <img src="/Navigator.github.io/icons/community.svg" alt="Логотип" />
           </div>
               <div className="logo-text">
                 <span className="logo-title">СПЕЦИАЛИСТ</span>
@@ -46,7 +46,7 @@ export default function Header() {
 
           <a href="#profession-map" className="header-cta" onClick={closeMenu}>
             Исследовать
-            <img src="/icons/arrow.svg" alt="" className="cta-arrow" />
+            <img src="/Navigator.github.io/icons/arrow.svg" alt="" className="cta-arrow" />
           </a>
         </nav>
       </div>
