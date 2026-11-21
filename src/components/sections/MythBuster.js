@@ -91,16 +91,16 @@ export default function MythBuster() {
               <div className="float-tag tag-8"><img src="/icons/support.svg" alt="Поддержка" /><span>Поддержка</span></div>
 
               {/* Кошки */}
-              <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-1" />
-              <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-2" />
-              <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-3" />
-              <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-4" />
-              <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-5" />
-              <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-6" />
-              <img src="/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-7" />
+              <img src="/Navigator.github.io/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-1" />
+              <img src="/Navigator.github.io/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-2" />
+              <img src="/Navigator.github.io/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-3" />
+              <img src="/Navigator.github.io/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-4" />
+              <img src="/Navigator.github.io/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-5" />
+              <img src="/Navigator.github.io/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-6" />
+              <img src="/Navigator.github.io/images/meme/catlaught.jpg" alt="Кошка" className="truth-cat cat-7" />
 
               {/* Солдат */}
-              <img src="/images/meme/War-meme.png" alt="Солдат" className="truth-soldier" />
+              <img src="/Navigator.github.io/images/meme/War-meme.png" alt="Солдат" className="truth-soldier" />
 
               {/* Облачко с точками */}
               <div className="speech-bubble">
