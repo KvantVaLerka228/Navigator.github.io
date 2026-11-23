@@ -93,7 +93,7 @@ export default function ProfileSection() {
         <video
           ref={modalVideoRef}
           className="modal-video"
-          src="/Navigator.github.io/videos/travel.mp4"
+          src="/Navigator.github.io/videos/mainvid.mp4"
           controls
           autoPlay
           playsInline
